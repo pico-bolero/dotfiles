@@ -1,0 +1,22 @@
+# ~/.config/ruff/ruff.toml
+# personal ruff settings
+[lint]
+select = [
+    # pydoc
+		"D",
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+
+[lint.pydocstyle]
+convention = "google"  # Accepts: "google", "numpy", or "pep257".
